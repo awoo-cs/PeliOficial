@@ -114,6 +114,11 @@ public class framePrincipal extends javax.swing.JFrame {
         txtUsuario.setText("user");
         txtUsuario.setBorder(null);
         txtUsuario.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        txtUsuario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtUsuarioActionPerformed(evt);
+            }
+        });
         Fondo.add(txtUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 330, 310, -1));
         txtUsuario.setForeground(Color.GRAY);
         txtUsuario.addFocusListener(new Placeholders("user", new Color(204, 204, 204), Color.BLACK));
@@ -179,6 +184,11 @@ public class framePrincipal extends javax.swing.JFrame {
         this.revalidate();
         this.repaint();
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void txtUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtUsuarioActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtUsuarioActionPerformed
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel Fondo;
     private javax.swing.JButton jButton1;

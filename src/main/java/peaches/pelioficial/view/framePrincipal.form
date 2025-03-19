@@ -139,6 +139,9 @@
               <Color id="Text Cursor"/>
             </Property>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtUsuarioActionPerformed"/>
+          </Events>
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="txtUsuario.setForeground(Color.GRAY);&#xa;txtUsuario.addFocusListener(new Placeholders(&quot;user&quot;, new Color(204, 204, 204), Color.BLACK));"/>
           </AuxValues>

@@ -572,6 +572,11 @@ public class panelMenu extends javax.swing.JPanel {
                 btnDirectoresMouseClicked(evt);
             }
         });
+        btnDirectores.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnDirectoresActionPerformed(evt);
+            }
+        });
         jPanel1.add(btnDirectores, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 290, 180, 40));
 
         btnregistrarsocio.setBackground(new java.awt.Color(0, 0, 0));
@@ -639,6 +644,11 @@ public class panelMenu extends javax.swing.JPanel {
                 btnPeliculasMouseClicked(evt);
             }
         });
+        btnPeliculas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnPeliculasActionPerformed(evt);
+            }
+        });
         jPanel1.add(btnPeliculas, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 370, 180, 40));
 
         btnCintas.setBackground(new java.awt.Color(0, 0, 0));
@@ -650,6 +660,11 @@ public class panelMenu extends javax.swing.JPanel {
         btnCintas.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btnCintasMouseClicked(evt);
+            }
+        });
+        btnCintas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnCintasActionPerformed(evt);
             }
         });
         jPanel1.add(btnCintas, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 410, 180, 40));
@@ -2336,6 +2351,18 @@ public class panelMenu extends javax.swing.JPanel {
             JOptionPane.showMessageDialog(this, "No se puedo eliminar el socio de la lista de espera.", "Error", JOptionPane.ERROR_MESSAGE);
         }
     }//GEN-LAST:event_btnEliminarListaLDEActionPerformed
+
+    private void btnCintasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCintasActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnCintasActionPerformed
+
+    private void btnDirectoresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDirectoresActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnDirectoresActionPerformed
+
+    private void btnPeliculasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPeliculasActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnPeliculasActionPerformed
     void validacionTexto(java.awt.event.KeyEvent evt){
         char c = evt.getKeyChar();
 
